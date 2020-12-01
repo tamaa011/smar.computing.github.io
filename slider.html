@@ -1,0 +1,132 @@
+<!--start slider-->
+    <div class="container">
+  <div id="myCarousel1" class="carousel slide" data-interval="300000">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner in">
+
+      <div class="item active">
+    <div class="row">
+<div class="col-md-4 col-xs-6">
+<div class="card">
+<div class="front">
+    <img src="img/app%20(1).png">
+    </div>    
+    <div class="back">
+    <h1 class="ui"></h1>
+    <p class="pui"></p>
+    </div>
+</div>
+</div>
+<div class="col-md-4 col-xs-6">
+<div class="card ">
+<div class="front">
+        <img src="img/website.png">
+    </div>    
+    <div class="back">
+    <h1 class="web"></h1>
+    <p class="pweb"></p>
+    </div>
+</div>
+</div>
+<div class="col-md-4 col-xs-6">
+ <div class="card">
+<div class="front">
+        <img src="img/Group%206582.png">
+    </div>    
+    <div class="back">
+    <h1 class="prog"></h1>
+    <p class="pprog"></p>
+    </div>
+</div>
+</div>
+<div class="col-md-4 col-xs-6">
+<div class="card">
+<div class="front">
+    <img src="img/spanner.png">
+    </div>    
+    <div class="back">
+    <h1 class="maint"></h1>
+    <p class="pmaint"></p>
+    </div>
+</div>
+</div>
+<div class="col-md-4 col-xs-6">
+<div class="card">
+<div class="front">
+    <img src="img/research.png">
+    </div>    
+    <div class="back">
+    <h1 class="qa"></h1>
+    <p class="pqa"></p>
+    </div>
+</div>
+</div>
+<div class="col-md-4 col-xs-6">
+<div class="card">
+<div class="front">
+    <img src="img/Page-1.png">
+    </div>    
+    <div class="back">
+    <h1 class="api"></h1>
+    <p class="papi"></p>
+    </div>
+</div>
+</div>
+        </div>
+      </div>
+
+      <div class="item">
+    <div class="row">
+<div class="col-md-4 col-xs-6">
+<div class="card">
+<div class="front">
+    <img src="img/cloud-computing.png">
+    </div>    
+    <div class="back">
+    <h1 class="dev"></h1>
+    <p class="pdev"></p>
+    </div>
+</div>
+</div>
+    </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="prev2 carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+      <span  aria-hidden="true"><img src="img/down-arrow.png"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="next2 carousel-control" href="#myCarousel1" role="button" data-slide="next">
+      <span aria-hidden="true"><img src="img/down-arrow2.png"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  
+</div>
+
+    </div>
+<!--end slider-->
+
+<script>
+        $(function(){
+      $(".ui").load("eng-text.html .sliderh1");
+      $(".web").load("eng-text.html .sliderh2");
+      $(".prog").load("eng-text.html .sliderh3");
+      $(".maint").load("eng-text.html .sliderh4");
+      $(".qa").load("eng-text.html .sliderh5");
+      $(".api").load("eng-text.html .sliderh6");
+      $(".dev").load("eng-text.html .sliderh7");
+      $(".pui").load("eng-text.html .pui");
+      $(".pweb").load("eng-text.html .pweb");
+      $(".pprog").load("eng-text.html .pprog");
+      $(".pmaint").load("eng-text.html .pmaint");
+      $(".pqa").load("eng-text.html .pqa");
+      $(".papi").load("eng-text.html .papi");
+      $(".pdev").load("eng-text.html .pdev");
+    });
+$(document).ready(function(){
+  // Activate Carousel
+  $("#myCarousel1").carousel("pause");
+});
+</script>

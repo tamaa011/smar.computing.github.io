@@ -1,0 +1,46 @@
+    <h1 class="text-center">Our Top Clients</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 col-xs-6">
+        </div>
+        <div class="col-md-3 col-xs-6">
+             <img src="img/aramex-logo-vector.png" alt="Aramex" class="image">
+            <img src="img/aramex-logo-vector2.png" alt="Aramex" class="images" style="display: none;">
+        </div>
+        <div class="col-md-3 col-xs-6">
+             <img src="img/Noon-01.png" alt="Avatar" class="image1">
+             <img src="img/Noon-012.png" alt="Avatar" class="images1" style="display: none;">
+        </div>
+        <div class="col-md-3 col-xs-6">
+             <img src="img/Component%209%20%E2%80%93%203.png" alt="Avatar" class="image2">
+             <img src="img/Component%209%20%E2%80%93%2033.png" alt="Avatar" class="images2" style="display: none;">
+        </div>
+        </div>
+</div>
+
+<script>
+        $(document).ready(function(){
+  $(".image").hover(function(){
+    $(this).css("display", "none");
+    $(".images").css("display", "block");
+    }, function(){
+    $(this).css("display", "block");
+      $(".images").css("display", "none");
+  });
+  $(".image1").hover(function(){
+    $(this).css("display", "none");
+    $(".images1").css("display", "block");
+    }, function(){
+    $(this).css("display", "block");
+      $(".images1").css("display", "none");
+  });
+      $(".image2").hover(function(){
+    $(this).css("display", "none");
+    $(".images2").css("display", "block");
+    }, function(){
+    $(this).css("display", "block");
+      $(".images2").css("display", "none");
+  });
+});
+
+</script>
